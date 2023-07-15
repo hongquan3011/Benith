@@ -24,12 +24,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.ve-chung-toi p {
-    font-size: 1.6rem;
-    line-height: 2.6rem;
-    text-align: justify;
-}
-
 .app {
     overflow: hidden;
 }
@@ -184,6 +178,12 @@ img.icon-box_img {
 #ve-chung-toi img.icon-box_img {
     transform: translateY(0px);
     animation: translateIcon 1s ease-in-out infinite alternate;
+}
+
+#ve-chung-toi p {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: justify;
 }
 
 .icon-box_heading {
